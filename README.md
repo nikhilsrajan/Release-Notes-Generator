@@ -12,27 +12,23 @@ How to use.
 
     Add(NEW_FEATURE, 1, "main point")
     Add(NEW_FEATURE, 2, "sub point")
-    Add(NEW_FEATURE, 3, "Sub-sub point.")
+    Add(NEW_FEATURE, 3, "sub-sub point.")
 
     Add(CHANGE, 1, "main point")
     Add(CHANGE, 2, "sub point")
-    Add(CHANGE, 3, "Sub-sub point.")
+    Add(CHANGE, 4, "sub-sub-sub point.")
 
-    Add(KNOWN_ISSUE, 1, "main point")
-    Add(KNOWN_ISSUE, 2, "sub point")
-    Add(KNOWN_ISSUE, 3, "Sub-sub point.")
+    Add(KNOWN_ISSUE, 5, "sub-sub-sub-sub point")
 
-    Add(BUG_FIX, 1, "main point")
-    Add(BUG_FIX, 2, "sub point")
-    Add(BUG_FIX, 3, "Sub-sub point.")
+    Add(BUG_FIX, 6, "sub-sub-sub-sub-sub point")
 
+    Add(NOTE, 7, "sub-sub-sub-sub-sub-sub point")
     Add(NOTE, 1, "main point")
-    Add(NOTE, 2, "sub point")
-    Add(NOTE, 3, "Sub-sub point.")
 
     print(Compile())
 
     Export('release-notes', 'txt')
+
 
 
 **Run your program to get in a text file** ``release-notes.txt``**:**
@@ -46,27 +42,24 @@ How to use.
         NEW FEATURES:
         * main point
           - sub point
-            - Sub-sub point.
+            - sub-sub point.
 
         CHANGES:
         * main point
           - sub point
-            - Sub-sub point.
+              - sub-sub-sub point.
 
         KNOWN ISSUES:
-        * main point
-          - sub point
-            - Sub-sub point.
+                - sub-sub-sub-sub point
 
         BUG FIXES:
-        * main point
-          - sub point
-            - Sub-sub point.
+                  - sub-sub-sub-sub-sub point
 
         NOTES:
+                    - sub-sub-sub-sub-sub-sub point
         * main point
-          - sub point
-            - Sub-sub point.
+
+
 
 
 
