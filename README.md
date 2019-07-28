@@ -52,5 +52,5 @@ How to use.
       * gibberish.
 
       NOTES:
-      * Yo mama sucks.``
+      * Yo mama sucks.
 
