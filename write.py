@@ -4,18 +4,25 @@ Version(2, 0, 0, 11, DEV, 3)
 Date(26, 7, 2019)
 Type(INTERNAL_RELEASE)
 
-Add(NEW_FEATURE, 1, "Catia XML Files now supported.")
-Add(NEW_FEATURE, 2, "JT Files version 9.5 to 10.0 now supported.")
-Add(NEW_FEATURE, 3, "Matot checking enabled.")
+Add(NEW_FEATURE, 1, "main point")
+Add(NEW_FEATURE, 2, "sub point")
+Add(NEW_FEATURE, 3, "Sub-sub point.")
 
-Add(CHANGE, 1, "'General Info' panel does not show information with value 0.")
-Add(CHANGE, 2, "Object type sub-group removed from Project Explorer.")
+Add(CHANGE, 1, "main point")
+Add(CHANGE, 2, "sub point")
+Add(CHANGE, 3, "Sub-sub point.")
 
-Add(KNOWN_ISSUE, 1, "File names and part hierarchy is not extracted during JT import.")
+Add(KNOWN_ISSUE, 1, "main point")
+Add(KNOWN_ISSUE, 2, "sub point")
+Add(KNOWN_ISSUE, 3, "Sub-sub point.")
 
-Add(BUG_FIX, 1, "gibberish.")
+Add(BUG_FIX, 1, "main point")
+Add(BUG_FIX, 2, "sub point")
+Add(BUG_FIX, 3, "Sub-sub point.")
 
-Add(NOTE, 1, "Yo mama sucks.")
+Add(NOTE, 1, "main point")
+Add(NOTE, 2, "sub point")
+Add(NOTE, 3, "Sub-sub point.")
 
 print(Compile())
 
